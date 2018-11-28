@@ -2,13 +2,13 @@
 # FROM airbase:18.11.01
 
 # docker hub build:
-FROM airlift/airbase
+FROM airlift/airbase:18.11.28
 
 MAINTAINER King Shaw "kings@amazon.com"
 
 # TODO: VERSION should come from 'tag' in Makefile?
 
-ENV SDKROOT="/sandbox" VERSION="18.11.01"
+ENV SDKROOT="/sandbox" VERSION="18.11.28"
 
 ENV PYTHONPATH=".:./release/airtime:./release/mcAir:../release/airtime:../release/mcAir:../../release/airtime:../../release/mcAir:$SDKROOT/release/airtime:$SDKROOT/release/mcAir"
 
