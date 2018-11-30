@@ -2,7 +2,7 @@
 # FROM airbase:18.11.01
 
 # docker hub build:
-FROM airlift/airbase:18.11.28
+FROM airlift/airbase:18.11.29
 
 MAINTAINER King Shaw "kings@amazon.com"
 
